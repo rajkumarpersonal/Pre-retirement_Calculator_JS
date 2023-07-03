@@ -1,0 +1,29 @@
+{
+  "name": "taxcalculator",
+  "version": "1.0.0",
+  "description": "Pre-retirement Calculator",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/cucumber-js features/applicationForm.feature"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rajkumarpersonal"
+  },
+  "keywords": [
+    "calculation",
+    "of",
+    "pre-retirement"
+  ],
+  "author": "rajkumar",
+  "license": "ISC",
+  "dependencies": {
+    "@cucumber/cucumber": "^9.2.0",
+    "cucumber-html-reporter": "^7.1.0",
+    "selenium-webdriver": "^4.10.0"
+  },
+  "devDependencies": {
+    "@cucumber/pretty-formatter": "^1.0.0",
+    "chai": "^4.3.7"
+  }
+}
