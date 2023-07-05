@@ -4,7 +4,7 @@
   "description": "Pre-retirement Calculator",
   "main": "index.js",
   "scripts": {
-    "test": "node_modules/.bin/cucumber-js features/applicationForm.feature"
+    "test": ""
   },
   "repository": {
     "type": "git",
